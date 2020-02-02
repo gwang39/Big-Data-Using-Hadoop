@@ -1,0 +1,8 @@
+Script started on Sat 29 Sep 2018 10:21:20 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ exitcho "HDFS test data" >testFIle[K[K[Kile
+]777;notify;Command completed;echo "HDFS test data" >testFile]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ cat testFIle[K[K[KiLe[K[K[KI[Kile
+HDFS test data
+]777;notify;Command completed;cat testFile]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:21:40 PM EDT

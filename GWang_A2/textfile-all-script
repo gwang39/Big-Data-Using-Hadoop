@@ -1,0 +1,112 @@
+
+ASSIGNMENT 2
+
+Guan Yue Wang
+
+2018/10/01
+
+-------------------------------------------------------------
+PART A
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:17:43 PM EDT
+[gwang39@hdserver ~]$ hadoop fs -ls /
+Found 4 items
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /data
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /testHDFS
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /tmp
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:23 /usr
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:17:59 PM EDT
+
+
+-------------------------------------------------------------
+PART B
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:21:20 PM EDT
+[gwang39@hdserver ~]$ echo "HDFS test data" >testFile
+[gwang39@hdserver ~]$ cat testFile
+HDFS test data
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:21:40 PM EDT
+
+
+-------------------------------------------------------------
+PART C
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:37:51 PM EDT
+[gwang39@hdserver ~]$ hadoop fs -copyFromLocal ./testFile /data
+[gwang39@hdserver ~]$ hadoop fs -ls /data
+Found 1 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /data/testFile
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:38:54 PM EDT
+
+
+-------------------------------------------------------------
+PART D
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:47:36 PM EDT
+[gwang39@hdserver ~]$ hadoop fs -cat /data/testFile
+HDFS test data
+[gwang39@hdserver ~]$ hadoop fs -mv /data/testFile /testHDFS/testFile
+[gwang39@hdserver ~]$ hadoop fs -ls /testHDFS
+Found 1 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /testHDFS/testFile
+[gwang39@hdserver ~]$ hadoop fs -cp /testHDFS/testFile /testHDFS/testFile2
+[gwang39@hdserver ~]$ hadoop fs -ls /testHDFS
+Found 2 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /testHDFS/testFile
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:51 /testHDFS/testFile2
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:52:09 PM EDT
+
+
+-------------------------------------------------------------
+PART E
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:55:33 PM EDT
+[gwang39@hdserver ~]$ hadoop fs -df /
+Filesystem                    Size   Used    Available  Use%
+hdfs://localhost:9000  18238930944  16410  11667660800    0%
+[gwang39@hdserver ~]$ hadoop fs -du /testHDFS
+15  /testHDFS/testFile
+15  /testHDFS/testFile2
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:56:17 PM EDT
+
+
+-------------------------------------------------------------
+PART F
+-------------------------------------------------------------
+Script started on Sat 29 Sep 2018 10:57:23 PM EDT
+[gwang39@hdserver ~]$ hadoop fs -rmdir /data
+[gwang39@hdserver ~]$ hadoop fs -rmdir /testHDFS
+rmdir: `/testHDFS': Directory is not empty
+[gwang39@hdserver ~]$ hadoop fs -rm -r /testHDFS
+18/09/29 23:02:13 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /testHDFS
+[gwang39@hdserver ~]$ hadoop fs -ls /
+Found 2 items
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /tmp
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:23 /usr
+[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 11:02:32 PM EDT
+[gwang39@hdserver ~]$ 
+
+-------------------------------------------------------------
+BONUS
+-------------------------------------------------------------
+Please see bonus typescript and project built folder (built project is also submitted in Vocareum)
+

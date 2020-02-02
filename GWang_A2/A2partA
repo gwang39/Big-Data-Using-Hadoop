@@ -1,0 +1,11 @@
+Script started on Sat 29 Sep 2018 10:17:43 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ exitvi .bashrc_profilerc[Kstop-dfs.sh[1Pvi .bashrc_profilerc[K[6Pexit[Khadoop fs -ls /
+Found 4 items
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /data
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /testHDFS
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /tmp
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:23 /usr
+]777;notify;Command completed;hadoop fs -ls /]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:17:59 PM EDT

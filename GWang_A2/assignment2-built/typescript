@@ -1,0 +1,24 @@
+Script started on Sat 29 Sep 2018 11:18:18 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~/git-hadoop/gwang39_all_assignments/assignment2]7;file://hdserver/home/gwang39/git-hadoop/gwang39_all_assignments/assignment2[?1034h[gwang39@hdserver assignment2]$ java -cp target/assignment2-1.0-SNAPSHOT-jar-wit h-dependencies.jar edu.jhu.bdpuh.HdfsClient -lsr ~/hadoop/current/etc
+Hello HDFS!
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.util.Shell).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+list files from: file:///
+Exception in thread "main" java.io.FileNotFoundException: File /home/gwang39/hadoop/current/etc does not exist
+	at org.apache.hadoop.fs.RawLocalFileSystem.listStatus(RawLocalFileSystem.java:431)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:1517)
+	at org.apache.hadoop.fs.FileSystem.listStatus(FileSystem.java:1557)
+	at org.apache.hadoop.fs.FileSystem$4.<init>(FileSystem.java:1714)
+	at org.apache.hadoop.fs.FileSystem.listLocatedStatus(FileSystem.java:1713)
+	at org.apache.hadoop.fs.ChecksumFileSystem.listLocatedStatus(ChecksumFileSystem.java:689)
+	at org.apache.hadoop.fs.FileSystem$6.<init>(FileSystem.java:1791)
+	at org.apache.hadoop.fs.FileSystem.listFiles(FileSystem.java:1787)
+	at edu.jhu.bdpuh.HdfsClient.listFiles(HdfsClient.java:30)
+	at edu.jhu.bdpuh.HdfsClient.run(HdfsClient.java:50)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at edu.jhu.bdpuh.HdfsClient.main(HdfsClient.java:24)
+]777;notify;Command completed;java -cp target/assignment2-1.0-SNAPSHOT-jar-with-dependencies.jar edu.jhu.bdpuh.HdfsClient -lsr ~/hadoop/current/etc]0;gwang39@hdserver:~/git-hadoop/gwang39_all_assignments/assignment2]7;file://hdserver/home/gwang39/git-hadoop/gwang39_all_assignments/assignment2[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ [K[gwang39@hdserver assignment2]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 11:19:21 PM EDT

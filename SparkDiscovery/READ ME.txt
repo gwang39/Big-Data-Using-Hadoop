@@ -1,0 +1,9 @@
+Presentation Topic - Apache Hadoop
+Guan Yue Wang
+2018/12/10
+
+Relevant Files:
+
+project_spark_gwang39: this presentation with audio and video gives an overview of Apache Spark framework
+
+Presentation Summary: this summary assesses the presentation in terms of content, demonstratin, as well as what went well and what didn't

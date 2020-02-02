@@ -1,0 +1,11 @@
+Script started on Sat 29 Sep 2018 10:55:33 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ exithadoop fs -ls /testHDFSexit[K[Khadoop fs -fs[K[Kdf /
+Filesystem                    Size   Used    Available  Use%
+hdfs://localhost:9000  18238930944  16410  11667660800    0%
+]777;notify;Command completed;hadoop fs -df /]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -df /[K[K[K[Kdu /testHDFS
+15  /testHDFS/testFile
+15  /testHDFS/testFile2
+]777;notify;Command completed;hadoop fs -du /testHDFS]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:56:17 PM EDT

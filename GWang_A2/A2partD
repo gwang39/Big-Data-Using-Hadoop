@@ -1,0 +1,16 @@
+Script started on Sat 29 Sep 2018 10:47:36 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ exithadoop fs -ls /data[22@copyFromLocal ./testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Khadoop fs -copyFromLocal ./testFile /datals /data[Kexit[K[Kexithadoop fs -ls /data[22@copyFromLocal ./testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat testFileecho "HDFS test data" >testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[Kcho "HDFS test data" >testFIle[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[Kcho "HDFS test data" >testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat testFile[8Pexithadoop fs -copyFromLocal ./testFile /datals /data[Kexit[K[Khadoop fs -cat /data/testFIle[K[K[K[KFIle[K[K[K[KFile
+HDFS test data
+]777;notify;Command completed;hadoop fs -cat /data/testFile]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop -v[K[Kfs -mv /data/testFIle /data/hdfsTest[K[K[K[K[K[K[K[KtestHDFS[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kile /testHDFS/testFIle[K[K[K[KFIle[K[K[Kile
+]777;notify;Command completed;hadoop fs -mv /data/testFile /testHDFS/testFile]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -mv /data/testFile /testHDFS/testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcat /data/testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Khadoop fs -ls /data[K[K[K[Khdfs[K[K[K[KtestHDFS
+Found 1 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /testHDFS/testFile
+]777;notify;Command completed;hadoop fs -ls /testHDFS]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -ls /testHDFS[K[K[K[K[K[K[K[K[K[K[K[K[K-cp /data/test[K[K[K[K[K[K[K[K[KtestHDFS/testFile /testHDFS/testFile2
+]777;notify;Command completed;hadoop fs -cp /testHDFS/testFile /testHDFS/testFile2]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -cp /testHDFS/testFile /testHDFS/testFile2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /testHDFS[K
+Found 2 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /testHDFS/testFile
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:51 /testHDFS/testFile2
+]777;notify;Command completed;hadoop fs -ls /testHDFS]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ [K[gwang39@hdserver ~]$ [K[gwang39@hdserver ~]$ [K[gwang39@hdserver ~]$ [K[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:52:09 PM EDT

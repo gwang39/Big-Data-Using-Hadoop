@@ -1,0 +1,15 @@
+Script started on Sat 29 Sep 2018 10:57:23 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ hadoop fs -rmdir /data
+]777;notify;Command completed;hadoop fs -rmdir /data]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ daoo[K[K[K[Khadoop fs -rmdir /data[K[K[K[KtestHDFS
+rmdir: `/testHDFS': Directory is not empty
+]777;notify;Command completed;hadoop fs -rmdir /testHDFS]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -rmdir /testHDFS[K[K[K[K[K[K[K[K[K[K[K[K[K[Km -r /testHDFS
+18/09/29 23:02:13 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /testHDFS
+]777;notify;Command completed;hadoop fs -rm -r /testHDFS]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ hadoop fs -rm -r /testHDFSdi[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krmdir /dataexit[Khadoop fs -du /testHDFSf /[Kexit[Khadoop fs -ls /testHDFScp /testHDFS/testFile /testHDFS/testFile2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /testHDFS[Kmv /data/testFile /testHDFS/testFile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pls /testHDFS[K[K[K[K[K[K[K[K
+Found 2 items
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:24 /tmp
+drwxr-xr-x   - gwang39 supergroup          0 2018-09-24 23:23 /usr
+]777;notify;Command completed;hadoop fs -ls /]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 11:02:32 PM EDT

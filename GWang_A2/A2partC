@@ -1,0 +1,9 @@
+Script started on Sat 29 Sep 2018 10:37:51 PM EDT
+]777;notify;Command completed;exit]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[?1034h[gwang39@hdserver ~]$ hadoop fs -copyFromLocal ./testFile /data
+]777;notify;Command completed;hadoop fs -copyFromLocal ./testFile /data]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ fs -[K[K[K[Khadoop fs -ls /data
+Found 1 items
+-rw-r--r--   1 gwang39 supergroup         15 2018-09-29 22:38 /data/testFile
+]777;notify;Command completed;hadoop fs -ls /data]0;gwang39@hdserver:~]7;file://hdserver/home/gwang39[gwang39@hdserver ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 10:38:54 PM EDT
